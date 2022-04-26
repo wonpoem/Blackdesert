@@ -1,0 +1,45 @@
+
+header .top { margin:0 auto; width: 1200px; padding:0 0 26px;}
+
+header .top h1 { float:left; padding: 33px 0 0;}
+header .top h1 a:first-child { margin-right:28px; }
+header .top > div { float:right; }
+
+header .control h2 { float:left; font-size:15px; color:#333; 
+    font-weight:normal; line-height:36px; }
+header .control { float:left; padding: 31px 24px 0 0 ;}
+header .control ul { float:left; padding: 0 0 0 9px; }
+header .control li { float:left; padding: 0 0 0 4px; }
+header .control li button[class] { padding:0 }
+header .control li button { font-size:14px; color:#3190ce; background:#fff;
+     border:1px solid #dfdfdf; height:36px; border-radius:36px; min-width:36px;
+    padding: 0 16px; box-sizing:border-box; }
+
+header .sns { position:relative; float:left; padding: 27px 0 0 7px; }
+header .sns:before { content:""; position:absolute; left:0; top:35px; width:1px; 
+    height:30px; background:#e3e3e3; }
+header .sns li { float:left; padding: 0 0 0 12px;}
+header .sns li img { width:46px; }
+
+
+header .btm { border-top:1px solid #ededed; border-bottom:1px solid #ededed; }
+header .btm > div { margin:0 auto; width:1200px; }
+
+header .btm .lnb { float:left; }
+header .btm .lnb li { float:left; }
+header .btm .lnb a { display:block; line-height:59px; padding:0 40px; font-size:20px; }
+header .btm .spot { float:right; font-size:0; }
+header .btm .spot * { vertical-align: middle; }
+header .btm .spot a { position:relative; display:inline-block; padding:0 25px; line-height:59px; font-size:15px;
+color:#333; }
+header .btm .spot a ~ a:before { content:""; position:absolute; left:0; top:25px; width:1px; height:10px;
+background:#e3e3e3; }
+
+header .btm .spot button { width: 59px; height:59px; background:none; color:#0066b3;
+font-size:26px; }
+
+
+
+
+
+
