@@ -38,7 +38,24 @@ background:#e3e3e3; }
 header .btm .spot button { width: 59px; height:59px; background:none; color:#0066b3;
 font-size:26px; }
 
+.visual img { width:100%; }
+.visual .controls { position:absolute; left:50%; padding:0 32px; bottom:25px;
+    z-index:30; transform: translateX(-50%);}
 
+.visual .controls > button { position: absolute; top:0; width:15px; height:25px; }
+.visual .controls > button.prev { left:0; background: url(../img/sBtn_prev.png)}
+.visual .controls > button.next { right:0; background:url(../img/sBtn_next.png)}
+
+.visual .paging { line-height:25px; }
+.visual .paging span { margin: 0 5px; width:14px; height:14px; border-radius:14px;
+background:#d9d9d9; transition: all .5s}
+
+.visual .paging span.swiper-pagination-bullet-active { background:#288bcc; width:30px; }
+
+.block > div { margin:0 auto; width:1200px; padding:100px 0 0; }
+.block .tit { text-align: center;}
+.block .tit h2 { padding:0 0 28px; font-size:36px; color:#333; line-height:1; }
+.block .tit p { font-size:21px; color:#666; line-height:1; }
 
 
 
