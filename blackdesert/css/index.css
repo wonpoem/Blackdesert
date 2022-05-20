@@ -2,4 +2,33 @@
 
 header { width:100%; }
 
-.top_header { }
+/* 헤더 상단 */
+
+.top_header { background:#222229; }
+.top_header img { width:125px; margin:0 21px 0 35px; }
+.top_header ul { display:inline-block; }
+.top_header ul  li { display:inline-block; position:relative; }
+.top_header ul  li a { color:#7c7c8c; font-size:14px; line-height:35px; padding:0 34px; }
+.top_header ul  li a:hover { color:#fff; }
+.top_header ul  li:nth-child(1) a:after { position:absolute; font-family:'xeicon'; content:'\e936'; right:9px; }    
+
+.main_header { background:#000; height:80px; }
+
+.main_header img { width:116px; line-height:80px; height:80px;}
+.main_header > a { padding:0 47px }
+
+.main_header nav { display:inline-block; }
+.main_header nav ul { display:inline-block; }
+.main_header nav ul li { display:inline-block; position:relative; }
+.main_header nav ul li a { color:#fff; font-size:16px; padding:0 30.5px; }
+
+.main_header nav ul li:nth-last-child(1) a:after{ position:absolute; content:'\e980'; font-family:'xeicon'; 
+    color:#c9c9c9; right:9px; }
+
+
+
+
+
+
+
+
