@@ -25,10 +25,19 @@ header { width:100%; }
 .main_header nav ul li:nth-last-child(1) a:after{ position:absolute; content:'\e980'; font-family:'xeicon'; 
     color:#c9c9c9; right:9px; }
 
+.main_header .login_start { float:right }
+.main_header .login_start a { color:#fff; font-size:14px; margin-right:22px; }
+.main_header .login_start a:before { font-family:'xeicon'; content:'\e963'; }
+.login_start .login button { width:200px; height:80px; background:#92734a; color:#fff; font-size:16px; 
+cursor:pointer; }
 
-
-
-
-
+.main { position: relative; }
+.main video { width:100%; }
+.main .main_wrap { position:absolute; color:#fff; 
+    width:970px; top:303px; left:50%; transform: translateX(-50%); z-index:55; text-align: center; }
+.main .main_wrap h2 { font-size:77px; }
+.main .main_wrap p { font-size:25px; margin-top:36px; }
+.main .main_wrap a { display:block; width:311px; height:76px; background:#dcb15c; border-radius:3px; color:#333; 
+font-size: 23px; margin:0 auto; line-height:76px; margin-top:40px; }
 
 
