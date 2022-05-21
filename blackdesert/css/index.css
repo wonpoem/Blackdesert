@@ -1,9 +1,10 @@
 
 
-header { width:100%; }
+
 
 /* 헤더 상단 */
-
+body { background:#7c7c8c; }
+header { width:100%; }
 .top_header { background:#222229; }
 .top_header img { width:125px; margin:0 21px 0 35px; }
 .top_header ul { display:inline-block; }
@@ -12,18 +13,32 @@ header { width:100%; }
 .top_header ul  li a:hover { color:#fff; }
 .top_header ul  li:nth-child(1) a:after { position:absolute; font-family:'xeicon'; content:'\e936'; right:9px; }    
 
+/* 헤더 메뉴 */
+
 .main_header { background:#000; height:80px; }
+.main_nav .xi-external-link { opacity:0.75; margin-left:3px; }
 
-.main_header img { width:116px; line-height:80px; height:80px;}
-.main_header > a { padding:0 47px }
+.main_header img { width:116px; line-height:80px; height:80px; float:left; margin:0 47px  }
+.main_header > a { }
 
-.main_header nav { display:inline-block; }
-.main_header nav ul { display:inline-block; }
-.main_header nav ul li { display:inline-block; position:relative; }
-.main_header nav ul li a { color:#fff; font-size:16px; padding:0 30.5px; }
 
-.main_header nav ul li:nth-last-child(1) a:after{ position:absolute; content:'\e980'; font-family:'xeicon'; 
-    color:#c9c9c9; right:9px; }
+
+
+.main_header .main_nav { float:left; }
+.main_header .main_nav > ul > li { display:inline-block; position: relative; }
+.main_header .main_nav > ul > li > a { color:#fff; font-size:16px; padding:0 30.5px; line-height:80px; }
+
+.main_header .main_nav .submenu { background:#000; position: absolute; z-index:5; }
+.main_header .main_nav .submenu li a { color:#999; padding: 0 27px; font-size:14px; height:38px; line-height:38px; }
+.main_header .main_nav .submenu li a:last-child { padding-bottom:15px }
+
+.main_header .main_nav li:nth-child(3) .submenu { width:175px;}
+.main_header .main_nav li:nth-child(4) .submenu { width:130px;  }
+.main_header .main_nav li:nth-child(5) .submenu { width:155px; }
+.main_header .main_nav li:nth-child(6) .submenu { width:135px; }
+.main_header .main_nav li:nth-child(6) .submenu { width:130px; }
+
+/* 메인 섹션 */
 
 .main_header .login_start { float:right }
 .main_header .login_start a { color:#fff; font-size:14px; margin-right:22px; }
@@ -39,5 +54,6 @@ cursor:pointer; }
 .main .main_wrap p { font-size:25px; margin-top:36px; }
 .main .main_wrap a { display:block; width:311px; height:76px; background:#dcb15c; border-radius:3px; color:#333; 
 font-size: 23px; margin:0 auto; line-height:76px; margin-top:40px; }
+
 
 
