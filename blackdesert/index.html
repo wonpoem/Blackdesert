@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,28 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </head>
+
 <body>
     <header>
         <div class="top_header">
-                <img src="img/img_network_bi.svg" alt="펄어비스로고">
-                <ul>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">STORE</a></li>
-                </ul>
+            <a href="#"><img src="img/img_network_bi.svg" alt="펄어비스로고"></a>
+            <ul>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">STORE</a></li>
+            </ul>
         </div>
         <div class="main_header clear">
-                <a href="#"><img src="img/logo_bdo_kr.svg" alt="검은사막로고"></a>
+            <a href="#"><img src="img/logo_bdo_kr.svg" alt="검은사막로고"></a>
             <nav class="main_nav">
-                <ul>
+                <ul class="main_ul">
                     <li>
                         <a href="#">새소식</a>
-                        <ul class="submenu" style="display:none;">
+                        <ul class="submenu">
                             <li><a href="#">공지사항</a></li>
                             <li><a href="#">업데이트</a></li>
                             <li><a href="#">이벤트</a></li>
@@ -49,9 +54,9 @@
                             <li><a href="#">뷰티앨범</a></li>
                             <li><a href="#">포토갤러리</a></li>
                             <li><a href="#">업데이트 히스토리</a></li>
-                            <li><a href="#">통합거래소</a></li>
-                            <li><a href="#">검은사막TV</a></li>
-                            <li><a href="#">파트너 스트리머</a></li>
+                            <li><a href="#">통합거래소</a><i class="xi-external-link"></i></li>
+                            <li><a href="#">검은사막TV</a><i class="xi-external-link"></i></li>
+                            <li><a href="#">파트너 스트리머</a><i class="xi-external-link"></i></li>
                         </ul>
                     </li>
                     <li>
@@ -89,8 +94,8 @@
                     <li>
                         <a href="#">고객센터<i class="xi-external-link"></i></a>
                         <ul class="submenu">
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">신고센터</a></li>
+                            <li><a href="#">FAQ</a><i class="xi-external-link"></i></li>
+                            <li><a href="#">신고센터</a><i class="xi-external-link"></i></li>
                             <li><a href="#">보안센터</a></li>
                         </ul>
                     </li>
@@ -114,6 +119,7 @@
             </video>
         </section>
     </header>
+
 </body>
 
 </html>
