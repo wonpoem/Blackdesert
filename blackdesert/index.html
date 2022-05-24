@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <div class="menu_bg"></div>
     <header>
         <div class="top_header">
             <a href="#"><img src="img/img_network_bi.svg" alt="펄어비스로고"></a>
@@ -32,24 +33,6 @@
             <div class="login_menu">
                 <a href="#"><i class="xi-user-o"></i></a>
             </div>
-            <div class="mobile_box">
-                 <a href="#"><i class="xi-close"></i></a>
-                 <img src="" alt="검은사막로고">
-                 <nav>
-                     <ul>
-                         <li><a href="#">새소식</a></li>
-                         <li><a href="#">게임 소개</a></li>
-                         <li><a href="#">모험가 캠프</a></li>
-                         <li><a href="#">상점</a></li>
-                         <li><a href="#">커뮤니티</a></li>
-                         <li><a href="#">다운로드</a></li>
-                         <li><a href="#">고객센터</a></li>
-                     </ul>
-                 </nav>
-                 <a href="#">로그인</a>
-                 <a href="#">게임 시작</a>
-            </div>
-
             <nav class="main_nav">
                 <ul class="main_ul">
                     <li>
@@ -177,6 +160,27 @@
                 </div>
             </div>
         </div>
+        <div class="mobile_box">
+            <a href="#" class="close"><i class="xi-close"></i></a>
+            <div class="mobile_logo_wrap">
+               <a href="#"><img src="img/logo_bdo_kr.svg" alt="검은사막로고"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">새소식</a><i class="xi-angle-down-min"></i></li>
+                    <li><a href="#">게임 소개</a><i class="xi-angle-down-min"></i></li>
+                    <li><a href="#">모험가 캠프</a><i class="xi-angle-down-min"></i></li>
+                    <li><a href="#">상점</a><i class="xi-angle-down-min"></i></li>
+                    <li><a href="#">커뮤니티</a><i class="xi-angle-down-min"></i></li>
+                    <li><a href="#">다운로드</a><i class="xi-angle-down-min"></i></li>
+                    <li><a href="#">고객센터</a><i class="xi-angle-down-min"></i></li>
+                </ul>
+            </nav>
+            <div class="mobile_button_wrap">
+               <a href="#">로그인</a>
+               <a href="#">게임 시작</a>
+            </div>
+       </div>
     </header>
     <section class="main">
         <div class="main_wrap">
@@ -184,9 +188,11 @@
             <p>전투부터 생활까지, 그 모든 이야기</p>
             <a href="#">지금 시작하기</a>
         </div>
-        <video muted autoplay loop>
-            <source src="https://s1.pearlcdn.com/global_static/video/skinjoin_world_loop.mp4" type="video/mp4">
-        </video>
+        <div class="video_wrap">
+            <video muted autoplay loop>
+                <source src="https://s1.pearlcdn.com/global_static/video/skinjoin_world_loop.mp4" type="video/mp4">
+            </video>
+        </div>
     </section>
 
 </body>
