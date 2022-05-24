@@ -33,12 +33,34 @@
 
 }
 
+@media screen and ( max-width:1025px ) { 
 
+    .top_header { display:none; }
+    header .main_header { height: 60px; }
+    .main_nav { display:none; }
+    .login_start { display:none; }
+    header .main_header img { width:103px; float:none; position: absolute;
+        left:50%; transform: translateX(-50%); margin:0; height:60px; line-height:60px;
+
+    }
+    header .main_header .mobile_menu { display:block; }
+    header .main_header .login_menu { display:block; }
+
+    .main video { display:none; }
+    .main { background:url(../img/main.jpeg) center no-repeat; height:456px; 
+    background-size:cover; }
+    body .main .main_wrap h2 { font-size:36px; font-weight:400; }
+    body .main .main_wrap p { font-size:16px; margin-top:12px; }
+    body .main .main_wrap a { width:227px; height:46px; font-size:14px; margin:0 auto; line-height:46px;
+         margin-top:18px; }
+    body .main .main_wrap { top:263px; }
+
+}
 
 
 
 /* 헤더 상단 */
-body { background:#7c7c8c }
+
 header { width:100%; }
 .top_header { background:#222229; }
 .top_header img { width:125px; margin:0 21px 0 35px; }
@@ -51,6 +73,16 @@ header { width:100%; }
 /* 헤더 메뉴 */
 
 .main_header { background:#000; height:80px; }
+.main_header .mobile_menu { display:none; float:left; width:45px; }
+.main_header .mobile_menu i { height:60px; line-height:60px; padding:0 15px; }
+
+.main_header .mobile_menu .xi-bars { font-size:26px; color:#fff; }
+.main_header .login_menu a i { font-size:26px; color:#fff; }
+
+.main_header .login_menu { display:none; float:right; width:50px; }
+.main_header .login_menu i { height:60px; line-height:60px; padding:0 15px; }
+
+.main_header .mobile_box { display:none; }
 
 .main_nav .xi-external-link { opacity:0.75; margin-left:3px;}
 .main_nav .submenu .xi-external-link { margin-left:-23px; opacity:1; font-size:14px; }
@@ -110,7 +142,7 @@ height:200px; left:-26px; }
 cursor:pointer; }
 
 .main { position: relative; }
-.main video { width:100%; }
+.main video { height:880px; }
 .main .main_wrap { position:absolute; color:#fff; 
     width:1300px; top:303px; left:50%; transform: translateX(-50%); z-index:12; text-align: center; }
 .main .main_wrap h2 { font-size:77px; font-weight:500; }
