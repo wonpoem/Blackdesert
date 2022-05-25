@@ -15,17 +15,30 @@ $(function(){
 
     $('.mobile_menu>a').click(function(){
 
-        $('.mobile_box').animate({left:'0'}, 500);
+        $('.mobile_menu_box').animate({left:'0'}, 500);
         $('.menu_bg').show();
 
         });
         
-        $('.close').click(function(){
+        $('.mobile_menu_box .close').click(function(){
         
-        $('.mobile_box').animate({left:'-363px'}, 500);
+        $('.mobile_menu_box').animate({left:'-363px'}, 500);
         $('.menu_bg').hide();
         
         });
 
+        $('.login_menu>a').click(function(){
+
+            $('.mobile_login_box').animate({right:'0'}, 500);
+            $('.menu_bg').show();
+    
+            });
+            
+            $('.mobile_login_box .close').click(function(){
+            
+            $('.mobile_login_box').animate({right:'-374px'}, 500);
+            $('.menu_bg').hide();
+            
+            });
 
 });
