@@ -1,11 +1,22 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+KR&display=swap');
 
 
 
 
 /* 반응형 */
+
+
+
+@media screen and ( max-width:1440px ) { 
+
+.event_section .event_wrap ul { padding:0 30px; }
+.event_section .event_wrap ul li a span { font-size:16px; }
+body { min-width:1440px; }
+
+}
+
+
 
 @media screen and ( max-width: 1350px ) {
     
@@ -66,9 +77,13 @@
 
 /* 헤더 상단 */
 
-body { overflow-x:hidden; }
+body { overflow-x:hidden; width:100%; }
 
-header { width:100%; }
+header { height:46px; width:100%; }
+
+.main { width:100%; overflow:hidden; height:100%; position: relative; }
+
+
 .top_header { background:#222229; }
 .top_header img { width:125px; margin:0 21px 0 35px; }
 .top_header ul { display:inline-block; }
@@ -79,7 +94,7 @@ header { width:100%; }
 
 /* 헤더 메뉴 */
 
-.main_header { background:#000; height:80px; position:absolute; width:100%; }
+.main_header { background:#000; height:80px; position:absolute; width:100%; z-index: 33; }
 .main_header .mobile_menu { display:none; float:left; width:45px; }
 .main_header .mobile_menu i { height:60px; line-height:60px; padding:0 15px; }
 
@@ -180,7 +195,6 @@ align-items: center; flex-direction: column; }
 .mobile_login_box { width:374px; background:#fff; height:100%; position:absolute; right:-374px; z-index:77; 
 overflow:hidden; }
 
-
 .mobile_login_box .mobile_logo_wrap { height:66px; position:relative; }
 .mobile_login_box .mobile_logo_wrap a { display:block; line-height:16px; margin:0 auto; width:153px; 
 box-sizing: border-box; padding:20px 0; }
@@ -206,7 +220,8 @@ display:block; }
 
 /* 메인 섹션 */
 
-body .main { min-height:880px; height:100%; }
+
+body .main { height:100%; }
 
 .menu_bg { width:100%; height:100%; 
 background:rgba(0,0,0,0.7); position: absolute; top:0; display:none; 
@@ -236,16 +251,19 @@ body .main .video_wrap video { width:100%;
 
 /* 이벤트 섹션 */
 
-.event_section .event_wrap ul { height:245px; background:#f5f4f6; 
+.event_section { width:100%; overflow:hidden; }
+
+.event_section .event_wrap ul { height:226px; background:#f5f4f6; 
 display: flex; justify-content: space-around;
 align-items: center; }
 
+.event_section .event_wrap li { overflow:hidden; width:31%; }
 
 .event_section .event_wrap li a { background:#fff; 
-width:550px; height: 160px; display:flex; align-items: center; }
+height: 144px; display:flex; align-items: center; }
 
 
-.event_section .event_wrap li a img { width:220px; height:124px; 
+.event_section .event_wrap li a img { width:175px;
  -webkit-transform:scale(1);
 -moz-transform:scale(1);
 -ms-transform:scale(1);	
@@ -279,11 +297,3 @@ display: inline-block; margin-top:10px; }
 
 .event_banner { background:url(../img/event_banner.jpeg) no-repeat center;
 height: 200px; cursor:pointer; }
-
-
-
-
-
-
-
-

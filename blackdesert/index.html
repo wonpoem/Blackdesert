@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta name="viewport" content="user-scalable=0;"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
     <title>검은사막</title>
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/index.css">
@@ -13,7 +16,6 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </head>
-
 <body>
     <div class="menu_bg"></div>
     <header>
@@ -181,6 +183,18 @@
                 <a href="#">게임 시작</a>
             </div>
         </div>
+    </header>   
+    <section class="main">
+        <div class="main_wrap">
+            <h2>검은사막, 진정한 모험의 가치</h2>
+            <p>전투부터 생활까지, 그 모든 이야기</p>
+            <a href="#">지금 시작하기</a>
+        </div>
+        <div class="video_wrap">
+            <video muted autoplay loop>
+                <source src="https://s1.pearlcdn.com/global_static/video/skinjoin_world_loop.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="mobile_login_box">
             <div class="mobile_logo_wrap">
                 <a href="#"><img src="img/cm_bi_black.svg" alt="펄어비스검은색로고"></a>
@@ -196,19 +210,7 @@
                 <li><a href="#">스토어</a></li>
             </ul>
             <p>Copytight Pearl Abyss Corp. All Rights Reserved.</p>
-        </div>
-    </header>
-    <section class="main">
-        <div class="main_wrap">
-            <h2>검은사막, 진정한 모험의 가치</h2>
-            <p>전투부터 생활까지, 그 모든 이야기</p>
-            <a href="#">지금 시작하기</a>
-        </div>
-        <div class="video_wrap">
-            <video muted autoplay loop>
-                <source src="https://s1.pearlcdn.com/global_static/video/skinjoin_world_loop.mp4" type="video/mp4">
-            </video>
-        </div>
+        </div> 
     </section>
     <section class="event_section">
         <div class="event_wrap">
@@ -229,7 +231,7 @@
                         <div class="event_img">
                             <img src="img/event2.jpg" alt="이벤트2">
                         </div>
-                        <div class="event_p">    
+                        <div class="event_p">
                             <p>GM노트</p>
                             <span>5월 30일, 매일 매일<br>검사데이!</span>
                         </div>
