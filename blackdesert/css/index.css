@@ -235,7 +235,7 @@ cursor:pointer; }
 
 
 .main .main_wrap { position:absolute; color:#fff; 
-    width:1300px; top:433px; left:50%; transform: translateX(-50%); z-index:12; text-align: center; }
+    width:1300px; top:293px; left:50%; transform: translateX(-50%); z-index:12; text-align: center; }
 .main .main_wrap h2 { font-size:77px; font-weight:500; }
 .main .main_wrap p { font-size:25px; margin-top:36px; }
 .main .main_wrap a { display:block; width:311px; height:76px; background:#dcb15c; border-radius:3px; color:#333; 
@@ -297,3 +297,30 @@ display: inline-block; margin-top:10px; }
 
 .event_banner { background:url(../img/event_banner.jpeg) no-repeat center;
 height: 200px; cursor:pointer; }
+
+
+
+/* 메인 배너 */
+
+.main_banner { background:url(../img/main_feature_bg.jpeg) no-repeat center; height:2692px; 
+background-size:cover; }
+
+.main_banner .h2_wrap1 { padding: 130px 0; text-align: center; }
+
+.main_banner .h2_wrap1 h2 { font-size:55px; color:#372c1d; }
+.main_banner .h2_wrap1 p { font-size:15px; color:#372c1d;  margin-top:50px; }
+
+.main_banner .h2_wrap2 { margin-top:165px; }
+.main_banner .h2_wrap2 div { float:left; margin-left:126px;  }
+.main_banner .h2_wrap2 div h2 { font-size:55px; color:#fff;  margin-top:120px; }
+.main_banner .h2_wrap2 div p { font-size:15px; color:#918a86;  margin-top:35px; }
+.main_banner .h2_wrap2 div a { display:block; width:232px; height:58px; border:1px solid #352d29; font-size:15px; 
+line-height:58px; color: #fff; margin-top:52px; box-sizing: border-box; padding-left:15px; }
+.main_banner .h2_wrap2 figure { float:right; margin-right:107px; }
+
+
+
+
+
+
+
